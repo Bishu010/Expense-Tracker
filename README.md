@@ -3,14 +3,22 @@
 
 A beginner-friendly command-line expense tracker built with Python.
 
-## Current Features
+### Completed
+- [x] Create expense dictionary
+- [x] Add expenses to a list
+- [x] Display expenses
+- [x] Add multiple expenses
+- [x] Organize code using functions
+- [x] Use a while loop for repeated input
+- [x] Add menu system
+- [x] Calculate total spending
 
-- Add an expense
-- Store expense name, amount, and category
-- Store multiple expenses
-- Display all recorded expenses
-- Use functions to organize the program
-- Use lists and dictionaries to store data
+### Planned
+- [ ] Show spending by category
+- [ ] Delete an expense
+- [ ] Save expenses to a CSV file
+- [ ] Load expenses when the program starts
+- [ ] Add error handling
 
 ## Technologies
 
