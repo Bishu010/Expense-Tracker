@@ -12,7 +12,7 @@ def add_expense(name, amount, category):
 
 def display_expenses(expenses):
     print('\nExpenses:')
-    
+
     for expense in expenses:
         print(
             f"Name: {expense['name']}, "
@@ -42,23 +42,33 @@ def get_expense():
     expenses_list.append(expense)
 
     print('Expense added:', expense)
-
-
-# Add the first expense
-get_expense()
-
-
-# Ask if the user wants to add more expenses
+def calculate_total(expenses):
+    total = 0
+    for expense in expenses:
+        total = total + expense('amount')
+    return total
 while True:
-    choice = input(
-        'Do you want to add another expense? (yes/no): '
-    )
+    print('\n===== EXPENSE TRACKER =====')
+    print('1. Add Expense')
+    print('2. Display Expenses')
+    print('3. Total Spending')
+    print('4. Exit')
 
-    if choice == 'yes':
+    choice = input('Choose an option: ')
+
+    if choice == '1':
         get_expense()
+
+    elif choice == '2':
+        display_expenses(expenses_list)
+
+    elif choice == '3':
+     total = calculate_total(expenses_list)
+     print('Total Spending:', total)
+
+    elif choice == '4':
+        print("okay Goodbye!")
+        break    
+
     else:
-        break
-
-
-# Display all expenses at the end
-display_expenses(expenses_list)
+        print('Invalid choice. Please choose 1, 2, or 3.')
