@@ -12,11 +12,11 @@ A beginner-friendly command-line expense tracker built with Python.
 - [x] Use a while loop for repeated input
 - [x] Add menu system
 - [x] Calculate total spending
-
+- [x] Delete an expense
+- [x] Save expenses to a CSV file
 ### Planned
 - [ ] Show spending by category
 - [ ] Delete an expense
-- [ ] Save expenses to a CSV file
 - [ ] Load expenses when the program starts
 - [ ] Add error handling
 
