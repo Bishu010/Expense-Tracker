@@ -20,7 +20,6 @@ This project was created to practice fundamental Python programming concepts inc
 
 - Python 3
 - CSV module
-- Git & GitHub
 
 ## How to Run
 
