@@ -1,32 +1,30 @@
-# Expense-Tracker
 # Expense Tracker
 
-A beginner-friendly command-line expense tracker built with Python.
+A beginner-friendly command-line Expense Tracker built with Python.
 
-### Completed
-- [x] Create expense dictionary
-- [x] Add expenses to a list
-- [x] Display expenses
-- [x] Add multiple expenses
-- [x] Organize code using functions
-- [x] Use a while loop for repeated input
-- [x] Add menu system
-- [x] Calculate total spending
-- [x] Delete an expense
-- [x] Save expenses to a CSV file
-### Planned
-- [ ] Show spending by category
-- [ ] Delete an expense
-- [ ] Load expenses when the program starts
-- [ ] Add error handling
+This project was created to practice fundamental Python programming concepts including functions, lists, dictionaries, loops, error handling, and CSV file handling.
 
-## Technologies
+## Features
 
-- Python
+- Add expenses
+- Display all expenses
+- Calculate total spending
+- View spending by category
+- Delete expenses
+- Save expenses to a CSV file
+- Load saved expenses when the program starts
+- Validate user input
+- Handle invalid input without crashing
+
+## Technologies Used
+
+- Python 3
+- CSV module
+- Git & GitHub
 
 ## How to Run
 
-Clone the repository and run:
+Clone the repository:
 
 ```bash
-python initial.py
+git clone https://github.com/Bishu010/Expense-Tracker.git
